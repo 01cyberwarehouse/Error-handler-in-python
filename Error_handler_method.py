@@ -5,7 +5,7 @@ try:
 except:
    print("Arguments is invalid.")
 
-# Example 2. You can use the error label to specify the error type.
+# Example 2. You can use the error label aka exception to specify the error type.
 try:
    open(argv[1])
    open(argv[2])
